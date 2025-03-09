@@ -98,7 +98,7 @@ namespace WavWrapper
         ~wavstream();
     };
     
-    wavstream::wavstream(int rate = 44100)
+    wavstream::wavstream(int rate)
     {
         sample_rate = rate;
     }
